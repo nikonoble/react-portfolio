@@ -1,5 +1,8 @@
 // Put all Variables and Mixin's at Top followed by ALL other SCSS files!
 
 @import "./variables.scss";
+@import "./mixin.scss";
 @import "./base.scss";
+@import "./button.scss";
 @import "./nav-bar.scss";
+@import "./portfolio.scss";
