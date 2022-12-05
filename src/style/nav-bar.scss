@@ -6,6 +6,19 @@
     .left-side {
         display: flex;
     }
+    
+    .right-side {
+        a {
+            margin-left: 15px;
+            cursor: pointer;
+            color: $teal;
+            transition: 0.35s ease-in-out;
+
+            &:hover {
+                color: $dark-teal;
+            }
+        }
+    }
 
     .nav-link-wrapper {
         height: 22px;
